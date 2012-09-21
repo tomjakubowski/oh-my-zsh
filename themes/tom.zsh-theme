@@ -1,4 +1,4 @@
-PROMPT='%{$fg[green]%}%n@%m%{$reset_color%}:%{$fg[yellow]%}%~%{$reset_color%} $(git_prompt_info)
+PROMPT='%{$fg[green]%}%n@%m%{$reset_color%}:%{$fg[yellow]%}${PWD/#$HOME/~}%{$reset_color%} $(git_prompt_info)
 %(!.#.$) '
 RPROMPT='$(git_prompt_status)%{$reset_color%}'
 

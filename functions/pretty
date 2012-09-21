@@ -1,0 +1,4 @@
+pretty() {
+    pygmentize -f terminal "$1" | less
+}
+
